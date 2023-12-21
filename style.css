@@ -33,7 +33,7 @@ body {
 /* Calculator */
 .calc {
     background: var(--cc-white);
-    width: clamp(338px, 90%, 800px);
+    width: clamp(338px, 90%, 575px);
     padding-top: 20px;
     border-radius: 15px;
     border-radius: 15px 15px 100px 15px;
@@ -41,9 +41,10 @@ body {
 
 /* Input fields section */
 .calc__inputs {
-    width: 100%;
+    width: clamp(338px, 100%, 450px);
     justify-content: space-evenly;
     margin-top: 40px;
+    align-self: start;
 }
 
 .input-group {
